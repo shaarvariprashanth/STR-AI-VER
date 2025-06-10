@@ -53,93 +53,67 @@ a{
     text-decoration: underline;
 }
 
-.myName{
-    height:40rem;
-    width:20rem;  
+.nobg{
     background-image: none;
-    font-size: xx-large;
-    margin-left: 9%;
-    margin-top: 4%;
-    
 }
 
-.nameanima{
-    height: 30rem;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.form{
+    height:50rem;
 }
 
-.name{
-    background-image: none;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-
-.anima{
-    height:30rem;
+.feedbackheading{
+    text-align: center;
+    margin-top: 2rem;
+    padding:10px 0 0 0;
+    border:5px double white;
     width:45rem;
-    background-image: url("anima.png");
-    background-size: cover;
-    margin-top: 5%;
-    margin-right: 6%;
-    /* box-shadow: 0 6px 10px -5px rgba(255,255,255,0.3); */
+    height:3rem;
+    margin-left:25rem;
 }
 
-.myIntro{
+.formcontent{
+    height:50rem;
     width:40rem;
-    font-size: 1.3rem;
-    background-image: none;
+    margin-left: 30%;
+    margin-top: 3rem;
 }
 
-.nitklink{
-    color:#ffb84d;
+.Submit{
+    border: 2px solid white;
+    height:30px;
+    width:90px;
+    font-size: large;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
 }
 
-p{
-    background-image: none;
+.Submit:hover{
+    transform: scale(1.25);
 }
 
-b{
-    background-image: none;
-    font-size: 1.5rem;
+.Submit:active{
+    background-image:none;
+    background-color:#6f2a7f;
 }
 
-i{
-    background-image: none;
+input[type="text"]{
+    height:20px;
+    padding:0;
+    width:10rem;
+    color:black;
 }
 
-.logo-box{
-    height:4rem;
-    width:12rem;
-    background-image: none;
-    display:flex;
-    margin-left:9.25%;
-    margin-top: 2rem;;
+input[type="tel"]{
+    color:black;
+    padding:0;
+    height:20px;
+    width:10rem;
 }
 
-.logo1{
-    background-image: none;
-}
-
-.logo2{
-    background-image: none;
-}
-
-.logo3{
-    background-image: none;
-}
-
-
-.resize{
-    width:4rem;
-    background-image: none;
-    font-size: 1.75rem;;
-}
-
-.expand:hover{
-    font-size: 2rem;
-    /* transform: scale(1.5);  This also can be used to give the same result */
+textarea{
+    height:40px;
+    width:500px;
+    color:black;
 }
 
 .footer{

@@ -53,94 +53,61 @@ a{
     text-decoration: underline;
 }
 
-.myName{
-    height:40rem;
-    width:20rem;  
+.Aboutmecontent{
+    height:576px;
     background-image: none;
-    font-size: xx-large;
-    margin-left: 9%;
-    margin-top: 4%;
-    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
 }
 
-.nameanima{
-    height: 30rem;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.name{
+.Aboutmetext{
+    width:700px;
     background-image: none;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-
-.anima{
-    height:30rem;
-    width:45rem;
-    background-image: url("anima.png");
-    background-size: cover;
-    margin-top: 5%;
-    margin-right: 6%;
-    /* box-shadow: 0 6px 10px -5px rgba(255,255,255,0.3); */
-}
-
-.myIntro{
-    width:40rem;
-    font-size: 1.3rem;
-    background-image: none;
-}
-
-.nitklink{
-    color:#ffb84d;
 }
 
 p{
     background-image: none;
+    font-size:1.25rem ;
+    animation:slideup 2s ease forwards;
+}
+
+@keyframes slideup{
+    from{
+        tranform: translateY(100%);
+        opacity:0;
+    }
+    to{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.heading{
+    background-image: none;
+    /* font-size:4rem; */
+    font-family: 'Times New Roman', Times, serif;
+    animation:pop 0.75s ease-out forwards;
+}
+
+@keyframes pop{
+    from{font-size: 0rem;}
+    to{font-size: 4rem;}
+}
+
+.Aboutmepic{
+    height:500px;
+    width:375px;
+    background-image:url("profile\ pic.jpg") ;
+    background-size: contain;
+    border:6px double white;
 }
 
 b{
     background-image: none;
-    font-size: 1.5rem;
 }
 
-i{
-    background-image: none;
-}
-
-.logo-box{
-    height:4rem;
-    width:12rem;
-    background-image: none;
-    display:flex;
-    margin-left:9.25%;
-    margin-top: 2rem;;
-}
-
-.logo1{
-    background-image: none;
-}
-
-.logo2{
-    background-image: none;
-}
-
-.logo3{
-    background-image: none;
-}
-
-
-.resize{
-    width:4rem;
-    background-image: none;
-    font-size: 1.75rem;;
-}
-
-.expand:hover{
-    font-size: 2rem;
-    /* transform: scale(1.5);  This also can be used to give the same result */
-}
+/* main style */
 
 .footer{
     height:15rem;

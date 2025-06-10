@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="\Portfolio\Feedbackstyle.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo">
+                <div class="logo">  
+                    <!-- <a href="index1.html"><img src="logo.png" height="60px"></a> -->
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navAboutme under">
+                     <a href="\Portfolio\Aboutme.html">About me</a>
+                </div>
+                <div class="navProjects under">
+                    <a href="\Portfolio\Projects.html">Projects</a>
+                </div>
+                <div class="navResume under">
+                    <a href="\Portfolio\My Tech Resume.pdf" target="_blank" >Resume</a>
+                </div>
+                <div class="navFeedback under">
+                    <a href="\Portfolio\index1.html">Home</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form nobg">
+            <h1 class="feedbackheading nobg">Help me improve - Your feedback Matters!!</h1>
+            <form action="\action.php" class="formcontent nobg">
+                <ol class="nobg">
+                    <li><b>NAME:   </b><input type="text" placeholder="Type your name here" class="nobg"></li><br>
+                    <li><b>CONTACT NO:   </b><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Type your 10 digit mobile number here" class="nobg" ></li><br><br>
+                    <li><b>How much do you rate the present portfolio?</b><br><br>
+                        <label for="101">
+                            <input type="radio" value="5" name="rating" id="101" class="nobg">      5-Excellent work,the best portfolio I've ever seen.
+                         </label><br>
+                         <label for="102">
+                            <input type="radio" value="4" name="rating" id="102" class="nobg">      4-Good work,Keep going.
+                        </label><br>
+                        <label for="103">
+                             <input type="radio" value="3" name="rating" id="103" class="nobg">     3-It is moderate need some changes.
+                        </label><br>
+                        <label for="104">
+                            <input type="radio" value="2" name="rating" id="104" class="nobg">      2-Not good,need a lot of improvement.
+                        </label><br>
+                        <label for="105">
+                            <input type="radio" value="1" name="rating" id="105" class="nobg">      1-Very bad,could'nt have seen anything worse than this.
+                        </label>
+                    </li><br><br>
+                    <li><b>What features of the portfolio were attractive?</b><br><br>
+                        <label for="106">
+                            <input type="checkbox" value="1" name="attractive" id="106" class="nobg">      Home page
+                        </label><br>
+                        <label for="107">
+                            <input type="checkbox" value="2" name="attractive" id="107" class="nobg">      About me
+                        </label><br>
+                        <label for="108">
+                            <input type="checkbox" value="3" name="attractive" id="108" class="nobg">      None
+                        </label><br>
+                    </li> <br><br>
+                    <li><b>Suggestions for improvement:</b><br><br>
+                        <textarea name="feedback" placeholder="Give your valuable feedback here" id="109" class="nobg"></textarea>
+                    </li>
+                </ol><br><br>
+                <input type="submit" value="Submit" class="Submit ">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerimage"></div>
+            <div class="footerdetails">
+                <ul class="details">
+                    <li><a href="\Portfolio\index1.html">Home</a></li><br><hr><br>
+                    <li><a href="tel:+91 9148955541" target="_blank">Contact me</a></li><br><hr><br>
+                    <li><a href="mailto:shaarvariprashanth@gmail.com" target="_blank" onclick="window.open('https://mail.google.com/mail/?view=cm&to=shaarvariprashanth@gmail.com'); return false;">Email me</a></li><br><hr><br>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
