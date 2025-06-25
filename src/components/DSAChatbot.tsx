@@ -23,7 +23,7 @@ export default function ChatbotWidget() {
       { role: "user", content: `${action}:\n${input}` }
     ];
 
-    const res = await axios.post("http://localhost:8000/chat", {
+    const res = await axios.post("/api/chat", {
       messages: formattedMessages,
     });
 
