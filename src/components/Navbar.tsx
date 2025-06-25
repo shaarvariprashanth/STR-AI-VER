@@ -16,6 +16,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="w-full bg-black flex items-center justify-between px-8 py-3 relative">
       <a href="/" className="text-white font-semibold text-lg hover:underline">
+        <span className="text-green-400 text-xl">{`</> `}</span>
         STR-AI-VER
       </a>
 
