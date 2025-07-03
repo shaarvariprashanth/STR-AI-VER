@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // Optional: You can also use simple icons
+import { Menu, X } from "lucide-react"; 
+
 
 const Navbar: React.FC = () => {
   const { user, logout, isAuthenticated } = useAuth0();
@@ -14,7 +15,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-black flex items-center justify-between px-8 py-3 relative">
+    <nav className="w-full bg-black  flex items-center justify-between px-8 py-3 relative">
       <a href="/" className="text-white font-semibold text-lg hover:underline">
         <span className="text-green-400 text-xl">{`</> `}</span>
         STR-AI-VER
@@ -23,26 +24,28 @@ const Navbar: React.FC = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 border border-gray-500 rounded-full px-4 py-1">
         <li>
-          <a href="#resources" className="text-gray-300 hover:text-white">
+          <a href="#resources" className="text-gray-300  hover:text-white ">
             Resources
           </a>
         </li>
         <li>
-          <a href="https://takeuforward.org/interview/" target="_blank" className="text-gray-300 hover:text-white">
+          <a href="https://takeuforward.org/interview/" target="_blank" className="text-gray-300  hover:text-white ">
             Interview
           </a>
         </li>
         <li>
-          <a href="https://takeuforward.org/blogs" target="_blank" className="text-gray-300 hover:text-white">
+          <a href="https://takeuforward.org/blogs" target="_blank" className="text-gray-300  hover:text-white ">
             Blog
           </a>
         </li>
         <li>
-          <a href="/pricing" className="text-gray-300 hover:text-white">
+          <a href="/pricing" className="text-gray-300  hover:text-white ">
             Subscription
           </a>
         </li>
       </ul>
+      
+      
 
       {/* Hamburger Icon (Mobile Only) */}
       <button
@@ -95,10 +98,12 @@ const Navbar: React.FC = () => {
           )}
         </div>
       )}
+      
 
       {/* Desktop Profile Dropdown */}
       {isAuthenticated && user && (
-        <div className="relative group hidden md:block">
+        <div className="relative group flex md:block ">
+          
           <img
             src={user.picture}
             alt={user.name}

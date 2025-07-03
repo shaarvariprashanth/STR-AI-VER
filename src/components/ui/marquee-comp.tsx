@@ -29,37 +29,37 @@ const platforms = [
   },
   {
     name: "AtCoder",
-    img: "https://img.atcoder.jp/assets/icon/atcoder.png",
+    img: "https://sta.codeforces.com/s/73599/images/codeforces-sponsored-by-ton.png",
     url: "https://atcoder.jp",
   },
   {
     name: "SPOJ",
-    img: "https://static.e-olymp.com/content/fd/fdf013cf0b9ef65e61efed51e78ffbce5983a58f.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
     url: "https://www.spoj.com",
   },
   {
     name: "InterviewBit",
-    img: "https://assets.interviewbit.com/assets/logo.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
     url: "https://www.interviewbit.com",
   },
   {
     name: "CS50",
-    img: "https://cs50.harvard.edu/images/logo-cs50.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
     url: "https://cs50.harvard.edu",
   },
   {
     name: "Exercism",
-    img: "https://exercism.org/images/logo.svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
     url: "https://exercism.org",
   },
   {
     name: "TopCoder",
-    img: "https://www.topcoder.com/wp-content/uploads/2020/04/topcoder-logo.png",
+    img: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg",
     url: "https://www.topcoder.com",
   },
   {
     name: "BinarySearch",
-    img: "https://binarysearch.com/favicon.ico",
+    img: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
     url: "https://binarysearch.com",
   },
 ];

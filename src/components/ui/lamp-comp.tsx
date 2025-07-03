@@ -36,7 +36,7 @@ export function LampDemo() {
         
       </motion.h1>
       
-      <div className="text-2xl text-gray-400 text-center  md:text-0.5xl ">
+      <div className="text-xl text-gray-400 text-center h-screen  md:text-0.5xl ">
             <p>Master Data Structures and Algorithms with our structured DSA Sheet, curated challenges, and expert mentorship. Build the skills that will set you apart in competitive programming and top tech interviews.</p>
         </div>
         <br/>
